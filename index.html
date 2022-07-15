@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Todo List</title>
+  </head>
+  <body class="">
+    <header>
+      <div class="menu-btn">
+        <button class="reset">
+          <i class="fa-solid fa-rotate"></i>
+          <span></span>
+        </button>
+        <button class="darkmode">
+          <i class="fa-solid fa-moon"></i>
+          <span></span>
+        </button>
+      </div>
+      <h2><span>todo</span><span>list</span></h2>
+      <div class="quote"></div>
+    </header>
+    <div class="body">
+      <div>
+        <input class="todo-input" type="text" placeholder="" />
+      </div>
+      <div>
+        <ul class="todo-list"></ul>
+      </div>
+      <div class="buttons">
+        <button class="all-btn active">All</button>
+        <button class="done-btn">Done</button>
+        <button class="todo-btn">Todo</button>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </body>
+</html>
